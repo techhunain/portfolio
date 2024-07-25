@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- main-container -->
+    <div class="main-container">
+        <!-- nav-1 -->
+        <div class="nav-1">
+            <div class="box-1">
+                <h1>About</h1>
+            </div>
+            <div class="box-2">
+                <h1>Experience</h1>
+            </div>
+        </div>
+          <!-- center-box -->
+        <div class="center-box">
+            <div class="heading">
+                <div class="line-1">
+                    <h3>HELLO I'M</h3>
+                </div>
+                <div class="line-2">
+                    <h1>CODEWITH_BARIHA</h1>
+                </div>
+                <div class="line-3">
+                    <h3>FRONTEND DEVELOPER</h3>
+                </div>
+            </div>
+            <!-- c-1 -->
+            <div class="center-img-1">
+                <img src="ig-3-removebg-preview.png" alt="img">
+            </div>
+            <!-- c-2 -->
+            <div class="center-img-2">
+                <img src="ig-1-removebg-preview.png" alt="img">
+            </div>
+           <!-- c-3 -->
+           <div class="center-img-3">
+            <img src="ig-2-removebg-preview.png" alt="img">
+        </div>
+                 <!-- c-4 -->
+                 <div class="center-img-4">
+                    <img src="ig-5-removebg-preview.png" alt="img">
+                </div>
+                    <!-- c-5 -->
+                    <div class="center-img-5">
+                        <img src="ig-4-removebg-preview.png" alt="img">
+                    </div>
+        </div>
+          <!-- nav-2 -->
+        <div class="nav-2">
+            <div class="box-3">
+                <h1>Project</h1>
+            </div>
+            <div class="box-4">
+                <h1>Contact</h1>
+            </div>
+        </div>
+        <!-- multiple-boxes -->
+         <div class="mul-box-1">
+            <div class="icon">
+                <i class="fa-solid fa-user"></i>
+            </div>
+            <div class="experience">
+                About Me
+            </div>
+            <div class="exp">
+                Coperative
+            </div>
+            <div class="exp">
+               Hard Worker
+            </div>
+            <div class="exp">
+                Passionate
+            </div>
+         </div>
+         <div class="mul-box-2">
+            <div class="icon">
+                <i class="fa-solid fa-shield-halved"></i>
+            </div>
+            <div class="experience">
+                Experience
+            </div>
+            <div class="exp">
+                Web-Design
+            </div>
+            <div class="exp">
+               UI & UX
+            </div>
+            <div class="exp">
+               Backend
+            </div>
+         </div>
+         <div class="mul-box-3">
+            <div class="icon">
+                <i class="fa-solid fa-user-shield"></i>
+            </div>
+            <div class="experience">
+                Projects
+            </div>
+            <div class="exp">
+            Websites
+            </div>
+            <div class="exp">
+               Logos
+            </div>
+            <div class="exp">
+                Applications
+            </div>
+         </div>
+         <div class="mul-box-4">
+            <div class="icon">
+                <i class="fa-regular fa-address-book"></i>
+            </div>
+            <div class="experience">
+                Contact
+            </div>
+            <div class="exp">
+                111-222-333
+            </div>
+            <div class="exp">
+               BR@gmail.com
+            </div>
+            <div class="exp">
+                Gulshan-B-10
+            </div>
+         </div>
+    </div>
+                <!-- toggle-btn
+            <div class="toggle-btn">
+                <div class="btn-1">
+                    <div class="on"></div>
+                </div>
+           <div class="btn-2">
+            <div class="off"></div>
+           </div>
+            </div> -->
+    <!-- jquery -->
+     <script>
+// center-box
+$(document).ready(function(){
+    $(".center-box").click(function(){
+        $(".center-img-1").show();
+    })
+})
+$(document).ready(function(){
+    $(".center-box").click(function(){
+        $(".center-img-2").hide();
+    })
+})
+$(document).ready(function(){
+    $(".center-box").click(function(){
+        $(".center-img-3").hide();
+    })
+})
+$(document).ready(function(){
+    $(".center-box").click(function(){
+        $(".center-img-4").hide();
+    })
+})
+$(document).ready(function(){
+    $(".center-box").click(function(){
+        $(".center-img-5").hide();
+    })
+})
+$(document).ready(function(){
+    $(".center-box").click(function(){
+        $(".mul-box-1").hide(300);
+    })
+})
+$(document).ready(function(){
+    $(".center-box").click(function(){
+        $(".mul-box-2").hide(300);
+    })
+})
+$(document).ready(function(){
+    $(".center-box").click(function(){
+        $(".mul-box-3").hide(300);
+    })
+})
+$(document).ready(function(){
+    $(".center-box").click(function(){
+        $(".mul-box-4").hide(300);
+    })
+})
+// box-1
+$(document).ready(function(){
+    $(".box-1").click(function(){
+        $(".center-img-3").show();
+    })
+})
+$(document).ready(function(){
+    $(".box-1").click(function(){
+        $(".center-img-1").hide();
+    })
+})
+$(document).ready(function(){
+    $(".box-1").click(function(){
+        $(".center-img-2").hide();
+    })
+})
+$(document).ready(function(){
+    $(".box-1").click(function(){
+        $(".center-img-4").hide();
+    })
+})
+$(document).ready(function(){
+    $(".box-1").click(function(){
+        $(".center-img-5").hide();
+    })
+})
+// mul-1
+$(document).ready(function(){
+    $(".box-1").click(function(){
+        $(".mul-box-1").show(300);
+    })
+})
+$(document).ready(function(){
+    $(".box-1").click(function(){
+        $(".mul-box-2").hide();
+    })
+})
+$(document).ready(function(){
+    $(".box-1").click(function(){
+        $(".mul-box-3").hide();
+    })
+})
+$(document).ready(function(){
+    $(".box-1").click(function(){
+        $(".mul-box-4").hide();
+    })
+})
+// box-2
+$(document).ready(function(){
+    $(".box-2").click(function(){
+        $(".center-img-2").show();
+    })
+})
+$(document).ready(function(){
+    $(".box-2").click(function(){
+        $(".center-img-1").hide();
+    })
+})
+$(document).ready(function(){
+    $(".box-2").click(function(){
+        $(".center-img-3").hide();
+    })
+})
+$(document).ready(function(){
+    $(".box-2").click(function(){
+        $(".center-img-4").hide();
+    })
+})
+$(document).ready(function(){
+    $(".box-2").click(function(){
+        $(".center-img-5").hide();
+    })
+})
+// mul-2
+$(document).ready(function(){
+    $(".box-2").click(function(){
+        $(".mul-box-2").show(300);
+    })
+})
+$(document).ready(function(){
+    $(".box-2").click(function(){
+        $(".mul-box-1").hide();
+    })
+})
+$(document).ready(function(){
+    $(".box-2").click(function(){
+        $(".mul-box-3").hide();
+    })
+})
+$(document).ready(function(){
+    $(".box-2").click(function(){
+        $(".mul-box-4").hide();
+    })
+})
+// box-3
+$(document).ready(function(){
+    $(".box-3").click(function(){
+        $(".center-img-4").show();
+    })
+})
+$(document).ready(function(){
+    $(".box-3").click(function(){
+        $(".center-img-1").hide();
+    })
+})
+$(document).ready(function(){
+    $(".box-3").click(function(){
+        $(".center-img-2").hide();
+    })
+})
+$(document).ready(function(){
+    $(".box-3").click(function(){
+        $(".center-img-3").hide();
+    })
+})
+$(document).ready(function(){
+    $(".box-3").click(function(){
+        $(".center-img-5").hide();
+    })
+})
+// mul-3
+$(document).ready(function(){
+    $(".box-3").click(function(){
+        $(".mul-box-3").show(300);
+    })
+})
+$(document).ready(function(){
+    $(".box-3").click(function(){
+        $(".mul-box-1").hide();
+    })
+})
+$(document).ready(function(){
+    $(".box-3").click(function(){
+        $(".mul-box-2").hide();
+    })
+})
+$(document).ready(function(){
+    $(".box-3").click(function(){
+        $(".mul-box-4").hide();
+    })
+})
+// box-4
+$(document).ready(function(){
+    $(".box-4").click(function(){
+        $(".center-img-5").show();
+    })
+})
+$(document).ready(function(){
+    $(".box-4").click(function(){
+        $(".center-img-1").hide();
+    })
+})
+$(document).ready(function(){
+    $(".box-4").click(function(){
+        $(".center-img-2").hide();
+    })
+})
+$(document).ready(function(){
+    $(".box-4").click(function(){
+        $(".center-img-3").hide();
+    })
+})
+$(document).ready(function(){
+    $(".box-4").click(function(){
+        $(".center-img-4").hide();
+    })
+})
+// mul-4
+$(document).ready(function(){
+    $(".box-4").click(function(){
+        $(".mul-box-4").show(300);
+    })
+})
+$(document).ready(function(){
+    $(".box-4").click(function(){
+        $(".mul-box-1").hide();
+    })
+})
+$(document).ready(function(){
+    $(".box-4").click(function(){
+        $(".mul-box-2").hide();
+    })
+})
+$(document).ready(function(){
+    $(".box-4").click(function(){
+        $(".mul-box-3").hide();
+    })
+})
+
+     </script>
+</body>
+</html>
